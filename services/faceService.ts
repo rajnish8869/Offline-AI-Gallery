@@ -18,8 +18,8 @@ const MIN_FACE_SIZE = 24;
 
 export const MODELS_CONFIG = {
   detector: {
-    name: 'face_detection_full_range.tflite',
-    url: 'https://raw.githubusercontent.com/patlevin/face-detection-tflite/refs/heads/main/fdlite/data/face_detection_full_range.tflite',
+    name: 'face_detection_short_range.tflite',
+    url: 'https://storage.googleapis.com/mediapipe-models/face_detector/blaze_face_short_range/float16/1/blaze_face_short_range.tflite',
     inputSize: 128 // Hint, actual size read from model
   },
   recognizers: {
