@@ -1,0 +1,7 @@
+{
+  "name": "Offline AI Gallery",
+  "description": "Privacy-focused photo organizer that uses on-device AI to recognize and group faces without internet access.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
